@@ -2,7 +2,7 @@
 
 封装的目的在于方便使用, 这个库就是基于此, 因此本库不做过多封装, 更多的只是进一步缕清RecyclerView本身在使用的一些关系和常用做法, 加以封装; 不影响和其他的相关库配合使用, 如 SwipeRefreshLayout 等;
 
-我这里封装的一个最大的特点, 也就是思路其实就是在使用 RecyclerView 时两条主线, 我只是更加明确的将其进行了封装而已, 其一是 onCreateViewHolder, 其二是 onBindViewHolder, 说明如下
+我这里封装的一个最大的特点,其思路就是在使用 RecyclerView 时的两条主线, 我只是更加明确的将其进行了封装而已, 其一是 onCreateViewHolder, 其二是 onBindViewHolder, 说明如下
 
 ## ItemType 
 
